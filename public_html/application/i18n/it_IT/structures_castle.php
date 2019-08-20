@@ -1,0 +1,42 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'submenu_office' => 'Studio del Vassallo', 
+'submenu_propertyreport' => 'Rapporti', 
+'submenu_taxes' => 'Configura Tasse', 
+'submenu_announcements' => 'Annunci', 
+'submenu_nominees' => 'Incarichi', 
+'office_pagetitle' => 'Studio del Vassallo', 
+'office_helper' => 'In questa stanza ricevi importanti ospiti e sbrighi le faccende governative.', 
+'addannouncement_pagetitle' => 'Pubblica un annuncio', 
+'addannouncement_helper' => 'Qui puoi pubblicare un messaggio ai residenti della tua regione o del tuo Regno. Potrai modificare il tuo messaggio entro 24 ore dalla pubblicazione. La lunghezza dell&#8217; annuncio pu&ograve; essere al massimo 4096 caratteri.', 
+'viewlaws' => 'Leggi promulgate', 
+'editlaw_pagetitle' => 'Modifica legge', 
+'addlaw_pagetitle' => 'Proclama una legge', 
+'listsubordinates' => 'Lista subordinati', 
+'assignrole' => 'Assegna un ruolo', 
+'nocandidatesfound' => 'Non &egrave; stato trovato alcun candidato che puoi nominare.', 
+'nominees_pagetitle' => 'Gestisci incarichi', 
+'prj_castle_name' => 'Castello', 
+'prj_castle_desc' => 'Il castello ti permetter&agrave; di assegnare delle regioni ad un Vassallo che nominerai. Inoltre render&agrave; pi&ugrave; difficile la conquista della regione.', 
+'appoint_text1' => 'Nominativo', 
+'appoint_text2' => 'Incarico reale', 
+'assign_helper' => 'In questa pagina puoi assegnare dei ruoli per le regioni che controlli. I candidati non devono ricoprire dei ruoli, devono essere residenti nella regione del regno dove devono ricoprire l&#8217;incarico ed avere gli attributi richiesti per la posizione. Il costo di nomina sono i seguenti: Giudice: 25 denari, Capitano della Guardia: 20 denari, Direttore dell\' Accademia e Capo Addestratore: 10 denari.', 
+'noassignedrolesyet' => 'Non hai ancora assegnato nessun ruolo.', 
+'region_subordinates' => 'Visualizza gli incarichi per la regione: ', 
+'region_properties' => 'Propriet&agrave; possedute in: %s', 
+'rest_helper' => 'La tua camera da letto &egrave; a dir poco lussuosa. Un enorme letto con lenzuola di seta e morbidi cuscini ti attende e alla porta alcune guardie sorvegliano sulla tua incolumit&agrave;. Qui puoi riposare tranquillo.', 
+'propertyreport' => 'Rapporto propriet&agrave;', 
+'submenu_basicresourcereport' => 'Rapporto risorse base', 
+'nopropertiesacquired' => 'Nessuna propriet&agrave; trovata.', 
+'appoint_text3' => 'Feudo (specificare il nome)', 
+'rolesandtitles_rolehelper' => '<p>Per svolgere al meglio i tuoi compiti amministrativi, puoi circondarti di collaboratori a cui affidare degli incarichi reali ufficialmente riconosciuti nel regno.<p><p>Come vassallo puoi nominare: 1 Prefetto, 1 Doganiere.</p>', 
+'rolesandtitles_titlehelper' => '<p>Elargire titoli e feudi a chi ti giura fedelt&agrave;o si &egrave;dimostrato particolarmente attivo nel regno ti aiuter&agrave;a mantenere solido il tuo potere.<p><p>Come vassallo puoi nominare: 2 Signori, 4 Cavalieri.</p>', 
+'taxes' => 'Tasse', 
+'valueaddedtax_helper' => 'Qui puoi configurare la Tassa su Beni e servizi per ogni categoria di relazione Diplomatica.', 
+'royal_appointments' => 'Incarichi Reali',
+'nobiliar_titles' => 'Titoli Nobiliari',
+);
+
+?>

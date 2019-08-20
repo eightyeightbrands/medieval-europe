@@ -1,0 +1,154 @@
+/******************************** pagina inventario esteso
+*/
+
+table#extinv {
+ width:100%;
+ border-collapse:collapse;
+ border:0px;
+ margin-bottom:10px;
+}
+
+table#extinv th, table#extinv td{
+ border: 0px solid #bbb;
+ text-align:center;
+}
+
+table#extinv .desc {
+ padding-left:5px;
+ text-align:left;
+}
+
+table#extinv .qta input {
+ width:30px;
+}
+
+img.vsicon {
+ width:20px;
+ height:20px;
+}
+
+
+/******************************** palazzo reale - start kingdom projects
+*/
+
+table#kp {
+ border-collapse:collapse;
+ border:0px;
+ margin-bottom:10px;
+ margin-top:20px;
+}
+
+table#kp th, table#kp td{
+ border: 0px solid #bbb;
+ text-align:left;
+}
+
+table#kp .desc {
+ padding-left:5px;
+ text-align:left;
+}
+
+table#kp img.objicon {
+ width:20px;
+ height:20px;
+}
+
+table#kp img.img-kp {
+ margin-right:10px;
+}
+
+div .progressbox {
+border:1px solid darkgreen;
+padding:1px 1px;
+height:6px;
+}
+
+div .progressbar {
+background-color: green;
+height:6px;
+}
+
+
+/******************************** castello - shoplist
+*/
+
+table#shoplist {
+ border-collapse:collapse;
+ margin-bottom:15px;
+ margin-top:10px;
+}
+
+table#shoplist th, table#shoplist td{
+ text-align:left;
+ border:1px solid #bbb;
+ padding:5px;
+}
+
+
+/******************************** castello - houselist
+*/
+
+table#houselist {
+ border-collapse:collapse;
+ margin-bottom:15px;
+ margin-top:10px;
+}
+
+table#houselist th, table#houselist td{
+ text-align:left;
+ border:1px solid #bbb;
+ padding:5px;
+}
+
+
+/******************************** structure - pagina ingo
+*/
+
+div.granito_header {
+ width:500px;
+ height:52px;
+ border:0px solid #000;
+ background: url(../images/template/granito_header.png) no-repeat; 
+}
+
+div.granito_body {
+ width:500px;
+ background-image:url(../images/template/granito_body.png);
+ background-repeat:repeat-y;
+ background-position:right top;
+ border:0px solid #000;
+}
+
+div.granito_footer {
+ width:500px;
+ height:56px;
+ background: url(../images/template/granito_footer.png) no-repeat ;
+ border:0px solid #000;
+}
+
+div.granito_headercontent, 
+div.granito_bodycontent, 
+div.granito_footercontent {
+ font: 12px Lucida Calligraphy;
+ text-align:left;
+ padding:10px 30px 10px 30px;
+ border:0px solid;
+ color: #fff;
+}
+
+div.granito_bodycontent {
+ padding-bottom:20px;
+}
+
+div.granito_headercontent {
+ font-size: 15px;
+ font-weight: bold;
+ padding-top:20px;
+ text-align:center;	
+}
+
+div.granito_footercontent {
+ padding: 10px 30px 0px 100px;
+ font-weight: bold;	
+ font-size:11px;
+}

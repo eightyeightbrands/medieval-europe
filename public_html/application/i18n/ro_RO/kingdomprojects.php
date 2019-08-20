@@ -1,0 +1,47 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'needs' => 'Material necesar', 
+'requestedhours' => 'Ore necesare', 
+'project' => 'Proiect', 
+'nolocationfound' => 'Nu a fost găsită nici o locaţie disponibilă', 
+'start' => 'Lansează', 
+'buildproject_helper' => 'Aici poţi începe proiectele pentru construcţii. Odată confirmat proiectul, un şantier se va crea în regiunea respectivă. Acolo se pot vedea detaliile complete. ', 
+'buildproject_pagetitle' => 'Începe un proiect', 
+'buildproject' => 'Construieşte o clădire', 
+'runningprojects' => 'Proiecte în desfăşurare', 
+'projectisfeasible' => 'Poţi începe proiectul.', 
+'projectisfeasiblecost' => 'Poţi începe un proiect. Costă: %d Puncte de Credinţă.', 
+'result' => 'Rezultat', 
+'startkingdomproject_ok' => 'Ai început un proiect.', 
+'projecttargetstructure' => 'Clădire în construcţie: <b>%s</b>', 
+'structure_info' => 'Informaţii clădire', 
+'structure_founder' => '%s', 
+'projectstartedby' => 'Proiectul a fost început de: <b>%s</b>', 
+'projectstartedon' => 'Proiectul a fost început în <b>%s</b>', 
+'projectendedon' => 'Proiectul a fost finalizat în :', 
+'info_helper' => 'Lângă intrare observi o placă din piatră pe care sunt gravate nişte litere:', 
+'projecthistory' => 'Construcţia a fost lansată de <b>%s</b> il <b>%s</b>. ', 
+'projecthistory2' => 'Construcţia a fost completată în: <b>%s</b>. Durata: <b>%s</b>.', 
+'churchstructureexists' => 'Această religie are deja biserică/templu/clădiri religioase.', 
+'workedhours' => 'Ore lucrate', 
+'buildingprogress' => 'Progres', 
+'regionisnotcontrolled' => 'Regiunea respectivă nu aparţine vreunui regat. ', 
+'religion_1_toonear' => 'Restricţiile referitoare la distanţă nu permit construcţia, %s este prea aproape (regiunea: %s)', 
+'religion_2_toonear' => 'Restricţiile referitoare la distanţă nu permit construcţia, %s este prea aproape (regiunea: %s)', 
+'projectisinprogress' => 'Un proiect similar este deja în desfăşurare.', 
+'religion_2_toofar' => 'Această clădire ar trebui amplasată la o distanţă de cel puţin 3 regiuni faţă de clădirea ierarhic superioară. ', 
+'religion_3_toonear' => 'Restricţiile referitoare la distanţă nu permit construcţia.  %s este prea aproape (regiunea :%s)', 
+'religion_4_toonear' => 'Restricţiile referitoare la distanţă nu permit construcţia. %s este prea aproape(region :%s)', 
+'religion_3_toofar' => 'Această clădire ar trebui amplasată la o distanţă de cel puţin 2 regiuni de clădirea ierarhic superioară. ', 
+'completedprojects' => 'Proiecte finalizate', 
+'nocompletedprojects' => 'Nu au fost completate proiecte până în prezent.', 
+'norunningprojects' => 'Nu sunt proiecte în desfăşurare.', 
+'structurealreadyexist' => 'Acest tip de clădire există deja.', 
+'neededstructurenotexisting' => 'Nu poţi construi această clădire pentru că lipseşte o altă clădire necesară. ', 
+'neededstructure' => 'Clădire necesară', 
+
+);
+
+?>

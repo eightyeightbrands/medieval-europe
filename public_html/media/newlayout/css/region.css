@@ -1,0 +1,296 @@
+#regionelementcontainer
+{
+	position:relative;
+	top:0px;
+	left:0px;	
+	height:520px;
+	border:0px solid blue;
+	
+}
+
+#regionelementcontainer img
+{
+	border:0px solid yellow;		
+}
+
+#regionelementcontainer img:hover
+{
+	border:1px solid #ddd;	
+	cursor:pointer;
+}
+
+/* Terreni */
+
+#terrains
+{
+position:absolute;
+top:170px;
+left:0px;
+width:200px;
+height:200px;
+}
+
+#terrains img
+{
+width:250px;
+height:250px;
+}
+
+#shops
+{
+	position:absolute;
+	top:120px;
+	left:690px;
+	width:120px;
+	height:120px;
+}
+
+#shops2
+{
+	position:absolute;
+	top:-20px;
+	left:490px;
+	width:100px;
+	height:100px;
+}
+
+#houses2
+{
+	position:absolute;
+	top:200px;
+	left:400px;
+	width:149px;
+	height:89;	
+}
+
+#houses3
+{
+	position:absolute;
+	top:200px;
+	left:550px;
+	width:149px;
+	height:89;	
+}
+
+/* Governo */
+
+#castle_1
+{	
+	position:absolute;
+	top:105px;
+	left:115px;	
+	width:150px;
+	height:150px;
+}
+
+#royalpalace_1
+{	
+	position:absolute;	
+	top:35px;
+	left:270px;
+	width:100px;
+	height:100px;		
+}
+
+
+#court_1
+{
+	position:absolute;	
+	top:135px;
+	left:280px;
+	width:100px;
+	height:100px;
+}
+
+#barracks_1, #barracks_2
+{
+	position:absolute;	
+	top:0px;
+	left:375px;
+	width:100px;
+	height:100px;
+	
+}
+
+
+#academy_1
+{
+	position:absolute;	
+	top:90px;
+	left:375px;	
+	width:100px;
+	height:100px;
+}
+
+#trainingground_1
+{
+	position:absolute;	
+	top:200px;
+	left:280px;
+	width:100px;
+	height:100px;
+}
+
+/* Chiesa */
+
+
+#religion_1
+{
+	position:absolute;	
+	top:280px;
+	left:375px;
+	width:150px;
+	height:150px;	
+}
+
+#religion_2
+{
+	position:absolute;	
+	top:360px;
+	left:500px;
+	width:100px;
+	height:100px;
+}
+
+#religion_3
+{
+	position:absolute;	
+	top:310px;
+	left:560px;
+	width:75px;
+	height:75px;
+}
+
+#religion_4
+{
+	position:absolute;	
+	top:40px;
+	left:485px;
+	width:100px;
+	height:100px;
+}
+
+#tavern_1
+{
+	position:absolute;	
+	top:225px;
+	left:670px;
+	width:100px;
+	height:100px;	
+}
+
+#market_1
+{
+	position:absolute;	
+	top:50px;
+	left:595px;
+	width:100px;
+	height:100px;
+}
+
+
+#harbor_1
+{	
+	position:absolute;	
+	top:410px;
+	left:780px;
+	width:100px;
+	height:100px;	
+}
+
+#watchtower_1
+{
+	position:absolute;	
+	bottom:0px;
+	left:540px;
+	width:90px;
+	height:90px;
+}
+
+#well_1
+{
+	position:absolute;	
+	top:160px;
+	left:520px;
+	width:60px;
+	height:60px;
+}
+
+
+#dump_1
+{
+	position:absolute;	
+	top:440px;
+	left:350px;
+	width:100px;
+	height:100px;
+}
+
+#buildingsitepozzo
+{
+	display:none;
+	width:88px;
+	height:100px;
+	top:300px;
+	left:510px;	
+	border:0px;
+	
+}
+
+
+#billboard_1
+{
+	position:absolute;
+	width:75px;
+	height:75px;
+	top:140px;
+	left:590px;
+	
+}
+
+#breeding_cow_region, 
+#breeding_pig_region, 
+#breeding_sheep_region, 
+#breeding_silwork_region, 
+#breeding_bee_region,
+#mine_clay, 
+#mine_stone, 
+#mine_iron, 
+#mine_gold, 
+#mine_coal
+{
+	position:absolute;
+	width:120px;
+	height:120px;
+	bottom:0px;
+	left:0px;		
+}
+
+#breedings
+{
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:270px;
+	left:180px;		
+}
+
+#battlefield
+{
+	position:absolute;
+	width:200px;
+	height:200px;
+	top:0px;
+	left:970px;		
+}
+
+#fish_shoal
+{
+	
+	border:1px solid white;
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:349px;
+	left:400px;		
+}

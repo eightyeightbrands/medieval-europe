@@ -1,0 +1,14 @@
+update structure_types set type = 'buildingsite_1' where type = 'buildingsite';
+update structure_types set type = 'billboard_1' where type = 'billboard';
+update structure_types set type = 'castle_1' where type = 'castle';
+update structure_types set type = 'battlefield_1' where type = 'battlefield';
+update structure_types set type = 'court_1' where type = 'court';
+update structure_types set type = 'tavern_1' where type = 'tavern';
+update structure_types set type = 'harbor_1' where type = 'harbor';
+update structure_types set type = 'market_1' where type = 'market';
+update structure_types set type = 'nativevillage_1' where type = 'nativevillage';
+update structure_types set type = 'royalpalace_1' where type = 'royalpalace';
+update structure_types set type = 'dump_1' where type = 'dump';
+INSERT INTO `structure_types` VALUES (NULL, 'structures.trainingground_2', 'trainingground', 'trainingground', 'trainingground_2', 'government', 0, 'drillmaster', 6, 'global.drillmaster', 2, 4.5, 'trainingground2.jpg', NULL, 0, 0, '2', '1', NULL, '1', '84', '60');
+update structure_types set image = 'trainingground_1.jpg' where type = 'trainingground_1';
+update structure_types set image = 'trainingground_2.jpg' where type = 'trainingground_2';

@@ -1,0 +1,1 @@
+<iframe width="700" height="600" scrolling="no" src="https://widget.mibbit.com/?settings=80396f9826235a23825a31ec4002580b&server=rizon.mibbit.org%3A%2B6697&channel=%23medievaleurope&nick=<?php echo $nick?>&autoConnect=true"></iframe>

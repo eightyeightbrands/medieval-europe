@@ -1,0 +1,45 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'defaultset' => 'X', 
+'alternativeset' => 'X', 
+'settodisplay' => 'X', 
+'configurelook' => 'X', 
+'configureequipment' => 'X', 
+'atelier' => 'X', 
+'help' => 'Udhëzime', 
+'atelier_helper' => 'X', 
+'submitforapproval' => 'X', 
+'approvalcost' => 'X', 
+'wardrobeconfigure_helper' => 'X', 
+'uploadimage' => 'X', 
+'cleanup' => 'X', 
+'cleanup_helper' => 'X', 
+'approval_helper' => 'X', 
+'upload_helper' => 'X', 
+'cleanedup' => 'X', 
+'imagesloaded' => 'X', 
+'approvalrequestsent' => 'X', 
+'wardrobeconfigureset' => 'X', 
+'choosendisplayedset' => 'X', 
+'requestaccepted' => 'X', 
+'requestrefused' => 'X', 
+'approvalprice' => 'X', 
+'nothingtoapprove' => 'X', 
+'imagesloadederror' => 'X', 
+'setskincolorset_helper' => 'X', 
+'settodisplay_helper' => 'X', 
+'aspect' => 'X', 
+'chooseskincolor' => 'Zgjedh ngjyrën e lëkurës', 
+'face' => 'Fytyra', 
+'hair' => 'Flokët', 
+'default' => 'X', 
+'lightwhite' => 'E bardhë', 
+'lightbrown' => 'X', 
+'choosenskincolorset' => 'Ju modifikuat ngjyrën e lëkurës', 
+'error-unprocessedrequestexists' => 'X', 
+
+);
+
+?>

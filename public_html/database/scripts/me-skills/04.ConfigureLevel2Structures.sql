@@ -1,0 +1,4 @@
+INSERT INTO `structure_types` (`id`, `name`, `parenttype`, `supertype`, `type`, `subtype`, `church_id`, `associated_role_tag`, `sortorder`, `associated_role_description`, `level`, `restlevel`, `image`, `price`, `buyable`, `sellable`, `storage`, `attribute1`, `attribute2`, `attribute3`, `attribute4`, `attribute5`, `attribute6`) VALUES (NULL, 'structures.academy_2', 'academy', 'academy', 'academy_2', 'government', 0, 'academydirector', 6, 'global.academydirector', 2, 4.5, 'academy_2.jpg', NULL, 0, 0, '10000000', '3', '1', NULL, NULL, NULL, NULL);
+
+
+update structure_types set attribute4 = null, attribute5 = null, attribute6=null where parenttype = 'academy';

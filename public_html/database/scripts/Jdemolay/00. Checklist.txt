@@ -1,0 +1,5 @@
+1. Lanciare 01.Reset_Server.sql
+2. Lanciare 03.Reset_Server.phpù
+3. Creare ID 1 Nekro Phoro
+4. Lanciare script PHP per aggiustare Regni e strutture (tipico del server)
+

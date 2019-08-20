@@ -1,0 +1,401 @@
+
+/******************************** tags generici
+*/
+
+html * {
+ padding:0;
+ margin:0;
+}
+
+html {
+ height:100%;
+ font-size:13px;
+ font-family:"Times New Roman", serif;
+}
+
+img.border {
+ padding:2px;
+ border:1px solid #ccc;
+}
+
+body {
+ margin:0 auto;
+ background-color:#000000;
+ text-align:center;
+}
+
+a {
+ color:#A52A2A;
+ font-weight:bold;
+}
+
+a, a:visited {
+ text-decoration:none;
+}
+
+a:hover {
+ text-decoration:underline;
+}
+
+p {
+ margin-bottom:10px;
+ text-align:left;
+}
+
+li {
+ list-style-position: inside;
+}
+
+.left {
+ float:left;
+}
+
+.right {
+ float:right;
+}
+
+.right10 {
+ margin-right:10px;
+}
+
+.right20 {
+ margin-right:20px;
+}
+
+.border1 {
+ border:1px solid #777;
+ padding:2px;
+}
+
+
+#background {
+ position:relative; 
+ margin:20px auto 0;
+ height:611px;
+ width:980px;
+}
+
+#homelink {
+ position:absolute;
+ top:40px;
+ left:130px;
+ width:300px;
+ height:90px;
+}
+
+#version
+{
+position:absolute;
+top:0px;
+left:42px;
+border:0px solid #fff;
+font-size: 12px;
+text-align:left;
+width:100px;
+color:#696969;
+}
+
+#statistics
+{
+position:absolute;
+top:0px;
+left:370px;
+width:auto;
+border:0px solid #fff;
+font-size:	12px;
+text-align:center;
+color:#696969;
+}
+
+#menu
+{
+position:absolute;
+top:0px;
+left:915px;
+border:0px solid #fff;
+font-size:	12px;
+text-align:left;
+color:#696969;
+}
+
+#menu a
+{
+color:#696969;
+text-decoration:none
+}
+
+
+#languages {
+ position:absolute;
+ top:50px;
+ right:110px;
+}
+
+#languages a .image-flag {
+ margin-left:5px;
+ border:1px solid #ccc;
+ padding:1px;
+}
+
+#main
+{
+ position:absolute;
+ top:0px;
+ left:30px;
+ width:920px;
+}
+
+#top
+{
+ background:url(../images/template/table-top.png) no-repeat #000000 top center;
+ height:35px;
+}
+
+#center
+{
+ background:url(../images/template/table-center.png) repeat-y #000000 top center;
+}
+
+#wrapper
+{
+ padding:0 50px;
+}
+
+#bottom
+{
+ background:url(../images/template/table-bottom.png) no-repeat #000000 top center;
+ height:35px;
+}
+
+
+/******************************** footer
+*/
+
+div#footer
+{
+ margin-top:7px;
+ font-size:12px;
+ height:50px;
+}
+
+div#footer, div#footer a
+{
+ color:#696969;
+}
+
+div#footer a:hover
+{
+ color:#d3d3d3;
+ text-decoration:none;
+}
+
+
+
+/******************************** paginazione news
+*/
+
+p.pagination {
+ text-align:center;
+}
+
+/******************************** messaggi di errore
+*/
+
+.simple-error-msg {
+ color:red;
+}
+
+.error_msg {
+ color:white;
+ font-weight:bold;
+ background-color:#800000;
+ border:1px solid #b22222;
+ padding:3px;
+ margin-bottom:10px;
+}
+
+
+/* credits + */
+
+div.credits
+{
+margin-top:10px;
+height:50px;
+float:left;
+margin-left:2px;
+border:0px solid;
+padding: 0;
+}
+
+div.thanks
+{
+float:left;
+margin-left:2px;
+text-align:center;
+font-weight:bold;
+}
+
+td
+{
+ vertical-align:top;
+ text-align:left;
+}
+
+#column1, #column2, #column3 {
+ width:255px;
+}
+
+#column1, #column2 {
+ padding-right:20px;
+}
+
+.title {
+	color:#8b4513;
+	font-size:17px;
+	font-weight:bold;
+	margin-bottom:3px;
+}
+
+.text {
+	color:#000;
+}
+
+.fb {
+	margin-top:25px;
+}
+
+#main-text a:hover{
+	text-decoration:underline;
+}
+
+button{
+
+width:150px;
+height:30px;
+font-size:18px;
+font-weight:bold;
+color: #fff;
+margin-top:5px;
+background-color: #8b4513;
+}
+
+h2
+{
+text-align:left;
+}
+
+#right{
+	width:50px;
+	float:left;
+}
+
+
+/******************************** form login
+*/
+
+#form {
+ margin-top:10px;
+}
+
+#form * {
+ float:left;
+ font-family:"Times New Roman", serif;
+}
+
+input {
+ border:1px solid #404040;
+ padding:4px 2px 2px 2px;
+ margin-bottom:5px;
+ font-family:"Times New Roman", serif;
+}
+	
+#username {
+ background:none;
+ width:120px; 
+ margin-right:10px;
+}
+
+#password {
+ background:none;
+ width:120px; 
+ margin-right:10px;
+}
+
+#submit {
+ border:1px solid #404040;
+ padding:2px;
+ color:#ffffff;
+ width:65px;
+ background-color:#8b4513;
+ font-weight:bold;
+}
+
+.regb {
+ border:1px solid #404040;
+ padding:4px;
+ color:#ffffff;
+ background-color:#8b4513;
+ margin-left:8px;
+}
+
+/******************************** icone homepage
+*/
+
+.littleicon {
+ margin-right:3px;
+}
+
+div#helper
+{
+ font-style:italic; 
+ padding: 2px; 
+ text-align: left;
+ margin: 5px 0px;
+}
+
+p.evidence
+{
+color:yellow;
+border:1px solid #d00;
+text-align:justify;
+padding:5px;
+background-color: #5d4028;
+}
+
+div#partnerships
+{
+
+}
+
+div#partnerships a
+{
+color:#555;
+font-weight:normal;
+}
+
+.screenshot{
+float:left;
+margin-left:12px;
+}
+.testimonial
+{
+float:left;
+width:400px;
+padding:5px;
+}
+img.screenshot_large, .alert
+{ padding:2px; background-color: #fff; }
+
+a.fbregisterbutton
+{	
+	background-color: #6685bc;
+	margin:0px 0px 10px 0px;
+	width:150px;
+	font-family: Arial;	
+	font-size: 11px;
+	padding:6px 0px;
+	color:#ffffff;
+	font-weight:bold; 
+	float:right; 
+	margin-left:0px;
+}

@@ -1,0 +1,47 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'needs' => 'Gerekli Malzemeler', 
+'requestedhours' => 'Gerekli çalışma saati', 
+'project' => 'Proje', 
+'nolocationfound' => 'Potansiyel mekan bulunamadı', 
+'start' => 'Başlat', 
+'buildproject_helper' => 'Bu sayfadan inşaat projeleri başlatabilirsiniz. Bir proje başlatıldığında, seçilen bölgede bir inşaat alanı oluşur. Daha fazla detay görmek için, binaya tıklayınız.', 
+'buildproject_pagetitle' => 'Proje başlat', 
+'buildproject' => 'Bina yap', 
+'runningprojects' => 'Yapım aşamasındaki binalar', 
+'projectisfeasible' => 'Projeyi başlatabilirsiniz.', 
+'projectisfeasiblecost' => 'Bir proje başlatabilirsiniz: Maliyeti: %d İman Puanı', 
+'result' => 'Sonuç', 
+'startkingdomproject_ok' => 'Bir proje başlattınız.', 
+'projecttargetstructure' => 'İnşa edilmekte olan bina: <b>%s</b>', 
+'structure_info' => 'Bina bilgileri', 
+'structure_founder' => '%s', 
+'projectstartedby' => 'Projeyi başlatan: <b>%s</b>', 
+'projectstartedon' => 'Başlama tarihi: <b>%s</b>', 
+'projectendedon' => 'Proje iptal tarihi:', 
+'info_helper' => 'Giriş yakınlarında üzerinde yazılar olan bir plaka gördünüz:', 
+'projecthistory' => 'Projeyi başlatan: <b>%s</b> - <b>%s</b>.', 
+'projecthistory2' => 'Proje tamamlanma: <b>%s</b>. Süresi: <b>%s</b>.', 
+'churchstructureexists' => 'Bu bölgede zaten bir dini bina var.', 
+'workedhours' => 'Çalışılmış saatler', 
+'buildingprogress' => 'İlerleme', 
+'regionisnotcontrolled' => 'Belirtilen bölge hiçbir devlete ait değil.', 
+'religion_1_toonear' => 'Mesafe sınırlamaları mevcut, yakınlarda %s binası var (bölge: %s)', 
+'religion_2_toonear' => 'Mesafe sınırlamaları mevcut, yakınlarda %s binası var (bölge: %s)', 
+'projectisinprogress' => 'Benzer bir proje zaten başlatılmış.', 
+'religion_2_toofar' => 'Bu bina, üst binasından en az 3 bölge uzağa inşa edilebilir.', 
+'religion_3_toonear' => 'Mesafe sınırlamaları mevcut, yakınlarda %s binası var (bölge: %s)', 
+'religion_4_toonear' => 'Mesafe sınırlamaları mevcut, yakınlarda %s binası var (bölge: %s)', 
+'religion_3_toofar' => 'Bu bina, üst binasından en az 2 bölge uzağa inşa edilebilir.', 
+'completedprojects' => 'Tamamlanmış projeler', 
+'nocompletedprojects' => 'Henüz tamamlanmış bir proje yok.', 
+'norunningprojects' => 'Devam eden proje yok.', 
+'structurealreadyexist' => 'Bu binadan zaten var.', 
+'neededstructurenotexisting' => 'Bu binayı yapamazsınız, gerekli ana bina eksik.', 
+'neededstructure' => 'Gerekli bina', 
+
+);
+
+?>

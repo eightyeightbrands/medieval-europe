@@ -1,0 +1,55 @@
+#!/bin/bash
+
+set -e
+
+if [ ! $# -eq 1 ] ; then
+  echo "Usage $0 [Numero de version]"
+  exit 1
+fi
+VERSION=$1
+NAME="phpfreechat-$VERSION"
+
+echo "-> check this version doesn't exist yet"
+git fetch --tags
+if [ "`git tag -l | grep $VERSION`" != "" ] ; then
+  echo "Warning: version $VERISON already exists. Aborting ..."
+  exit 2
+fi
+
+echo "-> add the version in a file and push on github"
+echo $VERSION > ../version.txt
+git commit -m "Version $VERSION" ../version.txt 
+git push
+
+echo "-> tag the new version on github"
+git tag -a -m "Version $VERSION" $VERSION
+git push --tags
+
+echo "-- create archives $NAME --"
+echo "-> copying file from github"
+rm -rf ./$NAME $NAME.tgz
+wget https://github.com/kerphi/phpfreechat/tarball/$VERSION -q -O $NAME.tgz
+
+echo "-> untar"
+GITHUB_NAME=`tar -ztf $NAME.tgz 2>/dev/null | head -1`
+tar xzf $NAME.tgz
+mv $GITHUB_NAME $NAME
+rm -f $NAME.tgz
+
+echo "-> cleanup"
+find $NAME/ -name ".gitignore" -exec rm -f {} \;
+rm -rf ./$NAME/contrib
+rm -rf ./$NAME/admin
+rm -rf ./$NAME/lib/pear/.registry
+
+echo "-> create checkmd5.php file"
+./checkmd5 ./$NAME ./$NAME/checkmd5.php
+
+echo "-> create $NAME.tar.gz"
+tar czfp $NAME.tar.gz ./$NAME 
+echo "-> create $NAME.zip"
+zip -Tq9r $NAME.zip ./$NAME
+
+echo "-> remove temporary files"
+rm -rf ./$NAME
+echo "-- archive $NAME created successfully --"

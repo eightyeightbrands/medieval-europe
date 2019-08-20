@@ -1,0 +1,245 @@
+div#general-info {
+ border:0px solid brown; 
+ position:relative;
+ width:100%;
+}
+
+div#frame {
+ position:relative;
+ background:url(../images/template/frame.png) top center;
+ width:157px;
+ height:187px;
+ float:left;
+}
+
+div#frame_rip {
+ position:relative;
+ background:url(../images/template/frame_rip.png) top center;
+ width:157px;
+ height:187px;
+}
+
+div#frame .charpic, div#frame_rip .charpic {
+ position:absolute;
+ top:24px;
+ left:23px; 
+}
+
+div#frame_s {
+ position:relative;
+ background:url(../images/template/frame_s.png) top center;
+ width:79px;
+ height:93px;
+ margin-bottom:10px;
+}
+
+div#frame_s .charpic_s {
+ position:absolute;
+ width:56px;
+ height:70px;
+ top:12px;
+ left:12px;
+}
+
+div#links-avatar {
+ position:absolute;
+ top:220px;
+ left:0px;
+ text-align:center;
+ width:160px;
+}
+
+div#infocontainer
+{
+width:80%;
+border:0px solid;
+margin-left:170px;
+}
+
+div#leftinfo {
+ width:49%;
+ margin-left:1%;
+ float:left;
+ text-align:left;
+ border:0px solid blue;
+}
+
+div#rightinfo { 
+ width:45%;
+ margin-left:1%; 
+ float:left;
+ text-align:left;
+ border:0px solid #c00;
+}
+
+.stat {
+ clear:both;
+ text-align:right;
+}
+
+.boxstat2 {
+margin-left:8px;
+margin-bottom:2px;
+margin-top:2px;
+border:1px solid #666;
+width:146px;
+float:right;
+}
+
+.barstat2 {
+height:10px;
+background-image:url(../images/other/statsbar_bg.gif);
+margin:0;
+}
+
+.box {
+ margin-top:2px;
+ border:1px solid #bbb;
+ margin-bottom:10px;
+ text-align:justify;
+ padding:5px;
+}
+
+.characterimage
+{
+	position:relative;
+	margin:0 auto;
+}
+
+.characterimage.large
+{
+width:289px;
+height:485px;
+
+}
+
+.characterimage.medium
+{
+width:238px;
+height:400px;
+}
+
+.characterimage.medium img
+{
+width:238px;
+height:400px;
+}
+
+.characterimage.large img
+{
+width:289px;
+height:485px;
+}
+
+.item_hair, .item_face, .item_head, .item_neck, .item_torso,
+.item_armor, .item_body, .item_legs, .item_left_hand, .item_right_hand,
+.item_left_wrist, .item_feet, .item_shoulder, .item_ring, .item_ring_hidden, .item_hair_hidden, .item_profile, .item_background, .item_frame
+{ position:absolute; top:0px; left:0px;}
+
+.item_background
+{ z-index:0;}
+
+.item_frame
+{ z-index:1;}
+
+.item_profile
+{ z-index:1; }
+
+.item_hair 
+{ z-index:7; }
+
+.item_hair_hidden
+{ z-index:3 }
+
+.item_face
+{ z-index:5; }
+
+.item_head
+{ z-index:8; }
+
+.item_neck
+{ z-index:7; }
+
+.item_torso
+{ z-index:4; }
+
+.item_armor
+{ z-index:5; }
+
+.item_body
+{ z-index:4; }
+
+.item_legs
+{ z-index:3; }
+
+.item_left_hand
+{ z-index:10; }
+
+.item_right_hand
+{ z-index:10; }
+
+.item_left_wrist
+{ z-index:9; }
+
+.item_feet
+{ z-index:3; }
+
+.item_shoulder
+{ z-index:6; }
+
+.item_ring
+{ z-index:4; }
+
+.item_ring_hidden
+{ z-index:3; }
+
+form.creategroup_form {
+ margin-top:15px;
+}
+
+div.publicprofile_badge {
+ margin-right:10px;
+ float:left;
+}
+
+img.vsicon {
+ width:15px;
+ height:15px;
+ margin-right:5px;
+}
+
+.rptitles img
+{
+width:50px;
+height:50px;
+}
+
+.badges img
+{
+margin-left:2px;
+width:50px;
+height:50px;
+}
+
+.kinship
+{
+width:20%;
+float:left;
+}
+
+
+ul#categorytabs
+{
+
+}
+
+ul#categorytabs li
+{
+text-align:center;
+display:inline;
+}
+
+ul#categorytabs li a
+{
+display:inline-block;
+}

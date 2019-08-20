@@ -1,0 +1,1 @@
+C:\wamp\bin\mysql\mysql5.1.36\bin\mysql.exe %1

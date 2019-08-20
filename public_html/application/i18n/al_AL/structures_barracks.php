@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'prj_barracks_level1_name' => 'Kazermat dhe Burgjet', 
+'prj_barracks_level1_desc' => 'X', 
+'prj_barracks_level2_name' => 'Kazermat dhe Burgjet - Nivel 2', 
+'prj_barracks_level2_desc' => 'X', 
+'rest_helper' => 'Më në fund pak pushim! Por duhet të mbani gjithnjë njërin sy hapur se mund të revoltohen të burgosurit,ku i dihet!', 
+'restrain_helper' => 'Mund ta ndaloni një personazh të largohet nga mbretëria duke u dhënë urdhër të vecantë rojeve. Specifikoni gjithashtu për sa orë do ta ndaloni (max 48 orë)', 
+'target' => 'Personat që do të bllokohen:', 
+'write_restraintorder' => 'Lëshoni një urdhër kufizimi', 
+'managerestrained_helper' => 'Shkrimtorja juaj është mbushur plot me punë të pa përfunduara, por ajo që po kërkoni mes letrave janë urdhëra ndalimi për t\'i anuluar dhe një modul për ta krijuar një të ri.', 
+'norestrained' => 'Nuk ka asnjë urdhër ndalimi.', 
+'warrant_id' => 'Numri identifikues i mandatit të arrestit', 
+'sentence_endtime' => 'Fundi i burgimit', 
+'sentence_imprison' => 'Burgosni', 
+'sentence_triallink' => 'Teksti i procesit gjyqësor', 
+'sentence_issuedby' => 'Lëshuar nga', 
+'sentence_reason' => 'Arsyeja', 
+'sentence_freereason' => 'Arsyeja e lirimit nga burgu', 
+'sentence_timeleft' => '(%s drejt fundit)', 
+'manageprisoner_helper' => 'Mbi një copë letër (shumë të pistë) të varur në mur janë shënuar emrat e keqbërësve që mbani në burg. Keni ende <b>%d</b> qeli të lira.', 
+'arrest' => 'Arrestoni', 
+'jail_text' => '<p>Gjendeni në një qeli të nëndheshme. Në një cep shikon një krevat të pisët, por me gjithë këtë lagështire me siguri sdo t\'ju marrë gjumi...Ky do të jetë vendbanimi juaj për ca kohë, gjatë së cilës përpiquni të mendoni për gabimet që keni bërë.</p><p>Jeni burgosur për arsyen e mëposhtme:<b>%s</b>.Do të liroheni më:<b>%s</b>, </p>', 
+'jail_pagetitle' => 'Një qeli e pistë dhe me lagështirë', 
+'manageprisoners' => '', 
+'managerestrained' => 'X', 
+'armory' => 'X', 
+'manage' => 'X', 
+'lend' => 'Huazo objekte', 
+'armory_upgrade' => 'Ngrit ushtri', 
+'armory_upgraded' => 'X', 
+'armory_pagetitle' => 'X', 
+'armory_helper' => 'X', 
+'lendsreport' => 'Raporti i huazimeve', 
+'nolentitems' => 'Nuk ka ndonjë objekt për huazim', 
+'lendtext' => 'Huazo objekte te:', 
+'expecteddeliverytime' => 'X', 
+'givearmoryaccesstext' => 'X', 
+'computedeliverytime' => 'X', 
+'lendtime' => '', 
+'lentby' => 'X', 
+'lenddeliverytime' => 'X', 
+
+);
+
+?>

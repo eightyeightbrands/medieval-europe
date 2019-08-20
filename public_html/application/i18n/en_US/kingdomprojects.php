@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'needs' => 'Required Material', 
+'requestedhours' => 'Hours required', 
+'project' => 'Project', 
+'nolocationfound' => 'No potential location found', 
+'start' => 'Launch', 
+'buildproject_helper' => 'On this page you can start your building projects. Once the project is confirmed, a construction site will be created in that specific region. Move your mouse on the building to view full details.', 
+'buildproject_pagetitle' => 'Start a project', 
+'buildproject' => 'Launch a project', 
+'runningprojects' => 'Projects in progress', 
+'projectisfeasible' => 'You can start the project.', 
+'projectisfeasiblecost' => 'You can start a project. Costs: %d Faith Points', 
+'result' => 'Result', 
+'startkingdomproject_ok' => 'You have launched a project.', 
+'projecttargetstructure' => 'Building in construction: <b>%s</b>', 
+'structure_info' => 'Building info', 
+'structure_founder' => '%s', 
+'projectstartedby' => 'The project has been launched by: <b>%s</b>', 
+'projectstartedon' => 'The project has been launched on <b>%s</b>', 
+'projectendedon' => 'The project has been terminated on:', 
+'info_helper' => 'Near the entrance you notice a stone plaque bearing some incised lettering:', 
+'projecthistoryheader' => 'Project History', 
+'projecthistory' => 'The building project has been launched by: <b>%s</b> il <b>%s</b>. ', 
+'projecthistory2' => 'The construction has been completed on: <b>%s</b>. Time taken (duration): <b>%s</b>.', 
+'churchstructureexists' => 'There is already a religious building in this region.', 
+'workedhours' => 'Hours worked', 
+'buildingprogress' => 'Building progress', 
+'regionisnotcontrolled' => 'The specified region does not belong to any kingdom.', 
+'religion_1_toonear' => 'Distance constraints not satisfied, a building of type: %s is too close by (region: %s)', 
+'religion_2_toonear' => 'Distance constraints not satisfied, a building of type: %s is too close by (region: %s)', 
+'projectisinprogress' => 'A similar project is already in progress.', 
+'religion_2_toofar' => 'This type of building should be placed at a distance of at least 3 regions from the parent structure.', 
+'religion_3_toonear' => 'The distance restriction do not satisfy the construction requirements, there is a building type: %s too close by (region :%s)', 
+'religion_4_toonear' => 'The distance restriction do not satisfy the construction requirements, there is a building type: %s too close by (region :%s)', 
+'religion_3_toofar' => 'This type of building should be placed at a distance of at least 2 regions from the parent structure.', 
+'completedprojects' => 'Completed projects', 
+'nocompletedprojects' => 'There are no completed projects yet.', 
+'norunningprojects' => 'No running projects found.', 
+'structurealreadyexist' => 'This structure type already exists.', 
+'neededstructurenotexisting' => 'You cannot build this structure, a required structure is missing.', 
+'neededstructure' => 'Required structure', 
+
+);
+
+?>

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /docs
+Disallow: /database
+Disallow: /scripts
+Disallow: /uploads

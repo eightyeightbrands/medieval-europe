@@ -1,0 +1,45 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'prj_tavern_name' => 'Han', 
+'tavern_chat' => 'Bir masaya oturun (Sohbet)', 
+'tavern_infoaction' => 'Burası yemek yemek, birşeyler içmek, dinlenmek ve insanlarla tanışmak için en uygun mekan. Burada ayrıca yolcularla ve tüccarlarla da karşılaşıp sohbet edebilirsiniz.', 
+'prj_tavern_desc' => 'Handa evi olmayan vatandaşlar ve yolcular barınabilirler. Tüm gelirleri Valinin kalesine gidecektir.', 
+'publicrest_helper' => 'Hancı iyi kalpli bir adam, size ücretsiz olarak köpeklerin kulubesinin yanında uyuyabileceğinizi söylüyor. Biraz kötü kokuyor ve her yer bit dolu ama yine de biraz dinlenip enerji toplama olanağı var.', 
+'freerest' => 'Bedava dinlen', 
+'launch_dices' => 'Barbut oyna', 
+'game_dicesimple' => 'Barbut oyna (Genel oda)', 
+'game_diceelite' => 'Barbut oyna (Özel oda)', 
+'game_dicesimple_helper' => 'At hırsızı tipli bir adamın masasına oturdunuz, elinde 4 tane zar var. Yanında bir kağıt parçası ve üstünde karalamalar var. İncelediğinizde, her 4 zarı da 6 getirebilirseniz yüklü bir miktar gümüş akçe kazanabileceğinizi öğreniyorsunuz. Adama oyunu sorduğunuzda, 5 akçe karşılığı zar atarak <b>%d</b> akçeye kadar para kazanabileceğinizi söylüyor. Daha sonra %s gösterip orda daha büyük meblağlar kazanabileceğinizi söylüyor. Masanın üstünde bir kağıt parçası var, muhtemelen %s listesi.', 
+'game_diceelite_helper' => 'Kırmızı kadife kumaştan örtüyle kaplı kaliteli bir masada oturmuş şık bir hanımefendi görüyorsunuz. Masanın üstünde bir çok Altın Sikke ve <b>5 yeni zar</b> var. Kadının ismi Emanuela, ve sizi <b>bir miktar Altın Sikke</b> bahisle zar atmaya ikna etmeye çalışıyor. Toplam para ödülü <b>%s</b> Altın Sikke,  kazanmak için <b>5 zarın da aynı (1-1-1-1-1, 2-2-2-2-2 vs.)</b> gelmesi lazım. Duvarda metal bir tabloda %s isimlerini görüyorsunuz. ', 
+'winners' => 'kazananlar', 
+'dice_dicelaunch' => 'Zar atıp şansınızı denemek ister misiniz?', 
+'room' => 'oda', 
+'game_dicesimple_pagetitle' => 'Barbut oyunu - Genel oda', 
+'game_diceelite_pagetitle' => 'Barbut Oyunu - Özel oda', 
+'dice_play' => 'Barbut Oyna', 
+'winners_diceelite' => '<b>%s</b>, <b>%d altın sikke </b> kazandı.  (%s, <b>%s</b> hanı)', 
+'winners_dicesimple' => '<b>%s</b> şanslı gününde! <b>%d gümüş akçe</b>yi  %s tarihinde <b>%s</b> hanında kazandı.', 
+'winners_helper' => 'Geçmişteki kazananların listesine hasetle bakıyorsuuz:', 
+'showwinners_pagetitle' => 'Kazananlar', 
+'nowinners' => 'Henüz kazanan yok', 
+'game_dice' => 'Barbut Oyna', 
+'rest_helper' => 'Hancı size kalabileceğiniz odaları gösteriyor. Ücretli odalar azami konfor sağlarken, ücretsiz odalar gayet rahatsız.', 
+'rest_pagetitle' => 'Handa dinlenin', 
+'resthours' => 'Dinlenilecek saat:', 
+'paidrestprice' => 'Enerjinizi geri kazanmak için dinlenin. (Her Enerji Puanı için maliyet: %s akçe. 1 Enerji Puanı kazanım süresi: %s). 90 güne kadar Handa ücretsiz dinlenebilirsiniz.', 
+'pointstorecover' => 'Kaç enerji puanı kazanmak istiyorsunuz? (1-50)', 
+'freerestprice' => 'Handa ÜCRETSİZ dinlenerek enerjinizi geri kazanın. (1 Enerji Puanı kazanım süresi: %s)', 
+'hoursmustbepositive' => 'Saat miktarı pozitif olmalıdır.', 
+'error-prizenotinlist' => 'Bu eşya Çarkıfelekte kazanılamaz', 
+'error-dailyrewardalreadyclaimed' => 'Günlük ödülünüzü zaten aldınız', 
+'error-toooldtoplay' => 'Günlük ödülünüzü almak için çok yaşlısınız.', 
+'info-itemclaimed' => 'Tebrikler, kazandınız:', 
+'wheeloffortune_helper' => 'Çarkıfelek\'te şansınızı deneyin! Günde bir kereye mahsus olmak üzere ve 14 günlük olana kadar SPIN\'e tıklayarak şansınızı deneyebilirsiniz.', 
+'paidrestprice' => 'Your energy is at: <b>%s%%</b>. You will pay <b>%s</b> Silver coins to restore 1%% of Energy and you will restore <b>%s%%</b> Energy per hour.<br/>Rest until your Energy level is at %s%% (specify a even number).', 
+'freerestprice' => 'Your energy is at: <b>%s%%</b>. You will restore <b>%s%%</b> Energy per hour.<br/>Rest until your Energy level is at %s%% (specify a even number).', 
+
+);
+
+?>

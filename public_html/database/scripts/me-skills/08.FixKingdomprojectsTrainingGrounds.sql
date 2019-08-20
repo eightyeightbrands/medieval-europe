@@ -1,0 +1,1 @@
+update cfgkingdomprojects set required_hours = 4000 where tag = 'trainingground_1';

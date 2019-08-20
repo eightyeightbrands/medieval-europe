@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'needs' => 'benötigtes Material', 
+'requestedhours' => 'benötigte Stunden', 
+'project' => 'Projekt', 
+'nolocationfound' => 'keine günstige Stelle gefunden', 
+'start' => 'freigeben', 
+'buildproject_helper' => 'Hier könnt Ihr Bauprojekte freigeben. Wenn das Projekt bestätigt wird, wird an der entsprechenden Stelle ein Bauplatz errichtet. Bewegt die Maus über das Gebäude für nähere Informationen.', 
+'buildproject_pagetitle' => 'Projekt freigeben', 
+'buildproject' => 'ein Gebäude errichten', 
+'runningprojects' => 'laufende Bauprojekte', 
+'projectisfeasible' => 'Ihr könnt das Projekt freigeben.', 
+'projectisfeasiblecost' => 'Ihr könnt ein Projekt freigeben. Kosten: %d Glaubenspunkte', 
+'result' => 'Ergebnis', 
+'startkingdomproject_ok' => 'Ihr habt ein Projekt freigegeben.', 
+'projecttargetstructure' => 'Gebäude im Bau: <b>%s</b>', 
+'structure_info' => 'Gebäudeinformation', 
+'structure_founder' => '%s', 
+'projectstartedby' => 'Das Projekt wurde freigegeben von: <b>%s</b>', 
+'projectstartedon' => 'Das Projekt wurde freigegeben am: <b>%s</b>', 
+'projectendedon' => 'Das Projekt wurde fertiggestellt am: <b>%s</b>', 
+'info_helper' => 'Am Eingang seht Ihr eine Steintafel mit Gravur:', 
+'projecthistoryheader' => 'Projektgeschichte', 
+'projecthistory' => 'Das Bauprojekt wurde freigegeben von <b>%s</b> am <b>%s</b>.', 
+'projecthistory2' => 'Das Bauwerk wurde fertiggestellt am: <b>%s</b>. Bauzeit (Dauer): <b>%s</b>.', 
+'churchstructureexists' => 'Diese Religion hat bereits eine Kirche/einen Tempel/ein religiöses Gebäude.', 
+'workedhours' => 'Arbeitsstunden', 
+'buildingprogress' => 'Baufortschritt', 
+'regionisnotcontrolled' => 'Die angegebene Region gehört keinem Königreich an.', 
+'religion_1_toonear' => 'Entfernungsauflagen nicht erfüllt, ein Gebäude des Typs: %s liegt zu nah (Region: %s).', 
+'religion_2_toonear' => 'Entfernungsauflagen nicht erfüllt, ein Gebäude des Typs: %s liegt zu nah (Region: %s).', 
+'projectisinprogress' => 'Ein ähnliches Projekt ist bereits im Gange.', 
+'religion_2_toofar' => 'Diese Art Gebäude sollte mind. eine Distanz von 3 Regionen zum Stammhaus haben.', 
+'religion_3_toonear' => 'Entfernungsauflagen nicht erfüllt, ein Gebäude des Typs: %s liegt zu nah (Region: %s).', 
+'religion_4_toonear' => 'Entfernungsauflagen nicht erfüllt, ein Gebäude des Typs: %s liegt zu nah (Region: %s).', 
+'religion_3_toofar' => 'Diese Art Gebäude sollte höchstens eine Distanz von 2 Regionen zum Stammhaus haben.', 
+'completedprojects' => 'abgeschlossene Projekte', 
+'nocompletedprojects' => 'Es gibt bisher keine abgeschlossenen Projekte.', 
+'norunningprojects' => 'Keine laufenden Projekte gefunden.', 
+'structurealreadyexist' => 'Dieser Gebäudetyp besteht bereits.', 
+'neededstructurenotexisting' => 'Ihr könnt dieses Gebäude nicht bauen, es fehlt ein notwendiges, übergeordnetes Gebäude.', 
+'neededstructure' => 'notwendiges Gebäude', 
+
+);
+
+?>

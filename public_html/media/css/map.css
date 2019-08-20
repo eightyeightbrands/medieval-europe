@@ -1,0 +1,170 @@
+/* New Map */
+
+#mapcommands
+{
+	width:100%;	
+}
+
+#desktop-map
+{
+	padding:2px;
+	position:relative;
+	overflow:hidden;
+	width:700px;
+	height:500px;
+	border:1px solid #999;
+}
+
+#map
+{
+	background-color:#1c3e3e;		
+}
+
+.pathselected 
+{
+  stroke: red;
+}
+
+.capital
+{
+	stroke: white;
+	
+}
+
+#map-infopanel
+{
+	width:350px;
+	height:250px;
+	position:absolute;
+	top:5px;
+	left:5px;
+	color: #fff;
+	z-index:999;
+	background-color:rgba(0,0,0,0.7);
+	border-radius:3px;
+	padding:3px 5px;	
+}
+
+#map-infopanel .value
+{
+	color: #38fffb;
+	
+}
+
+#map-navigation
+{
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:90px;
+	height:120px;		
+	border-radius:3px;
+	background-color:rgba(0,0,0,0.6);
+	z-index: 999;
+}
+
+#map-navigation #east
+{
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:25px;
+	left:5px;
+	z-index:999;
+	background:url(../images/map/east.png);	
+}
+
+#map-navigation #west
+{
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:25px;
+	right:5px;	
+	background:url(../images/map/west.png);	
+}
+
+#map-navigation #north
+{
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	position:absolute;
+	top:5px;
+	right:30px;	
+	background:url(../images/map/north.png);	
+}
+
+#map-navigation #south
+{
+	cursor:pointer;
+	width:30px;
+	height:30px;
+	position:absolute;
+	bottom:45px;
+	right:30px;	
+	background:url(../images/map/south.png);	
+}
+
+#map-navigation #zoomin
+{
+	cursor:pointer;
+	width:25px;
+	height:25px;
+	position:absolute;
+	bottom:5px;
+	left:5px;
+	background:url(../images/map/zoomin.png);	
+}
+
+#map-navigation #zoomout
+{
+	cursor:pointer;
+	width:25px;
+	height:25px;
+	position:absolute;
+	bottom:5px;
+	left:33px;	
+	background:url(../images/map/zoomout.png);	
+}
+
+#map-navigation #reset
+{
+	cursor:pointer;
+	width:25px;
+	height:25px;
+	position:absolute;
+	bottom:5px;
+	left:61px;	
+	background:url(../images/map/reset.png);	
+}
+
+#mobile-tablemap { margin-top:20px }
+
+/* Map **/
+
+#largemapft, #smallmap, #largemap, #smallmapft
+{
+position:absolute;
+top:15px;
+left:15px;
+}
+
+div#mapframe {
+ position:relative;
+ margin-top:10px;
+ width:700px;
+ border:1px solid #999;
+ height:644px; 
+ padding:3px 3px; 
+}
+
+div#map {
+ position:relative;
+ width:700px;
+ height:644px;
+ overflow:scroll;
+ cursor:pointer; 
+}

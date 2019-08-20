@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'prj_barracks_level1_name' => 'Kışla ve Zindanlar', 
+'prj_barracks_level1_desc' => 'Zindanlar tamamlandığında, suçluları hapsedebileceksiniz.', 
+'prj_barracks_level2_name' => 'Kışla ve Zindanlar - Seviye 2', 
+'prj_barracks_level2_desc' => 'Seviye 2 ile silah ve Zırh dağıtımını daha etkin kontrol edebileceksiniz.', 
+'rest_helper' => 'Nihayet biraz dinlenme fırsatı! Ama dikkatli olun, mahkumlar isyan edebilir.', 
+'restrain_helper' => 'Bir karakter hakkında Tedbir Kararı çıkartarak onun Devlet sınırlarından çıkışını engelleyebilirsiniz. (Kaç saat süreli karar çıkaracağınızı belirtin)', 
+'target' => 'Engellenecek Karakter:', 
+'write_restraintorder' => 'Tedbir Kararı Çıkartın', 
+'managerestrained_helper' => 'Masanızda eski Tedbir Kararlarını ve onları düzeltebilmek için bir kalemle hokka buldunuz.', 
+'norestrained' => 'Tedbir Kararı yok.', 
+'warrant_id' => 'Tutuklama Emri no', 
+'sentence_endtime' => 'Cezayı Sona Erdir', 
+'sentence_imprison' => 'Hapset', 
+'sentence_triallink' => 'Dava metni', 
+'sentence_issuedby' => 'Hükmü veren', 
+'sentence_reason' => 'Sebebi:', 
+'sentence_freereason' => 'Serbest Bırakma Nedeni', 
+'sentence_timeleft' => '(bitmesine %s)', 
+'manageprisoner_helper' => 'Tutukluların listesine bakıyorsunuz.', 
+'arrest' => 'Tutukla', 
+'jail_text' => '<p>Kendınızı rutubetli bir odada buldunuz, köşede bir yatak var ancak bu nemde uyunmaz.. Bir süre burada misafir olacaksınız, oturup hatanız hakkında düşünmek için güzel bir fırsat.</p><p>Şu nedenle tutuklandınız:: <b>%s</b>. Terhis tarihiniz: <b>%s</b>.</p>', 
+'jail_pagetitle' => 'Rutubetli ve pis bir hücre', 
+'manageprisoners' => 'Mahkumları Yönetin', 
+'managerestrained' => 'Tedbir Kararları', 
+'armory' => 'Cephanelik', 
+'lend' => 'Ödünç Eşya Ver', 
+'armory_upgrade' => 'Cephaneliği Yükselt', 
+'armory_upgraded' => 'Cephanlik Yükseltildi', 
+'armory_pagetitle' => 'Cephanelik', 
+'armory_helper' => 'İşaretlenmiş eşyaları belirtilen karaktere gönderebilirsiniz. Eğer Cephanelik yükseltilmemişse, karakter Cephanelik ile aynı bölgede olmalıdır.', 
+'lendsreport' => 'Ödünç Raporu', 
+'nolentitems' => 'Ödünç verilmiş eşya yok.', 
+'lendtext' => 'Ödünç verilen:', 
+'expecteddeliverytime' => '1,4 Kg\'lik bir eşyanın yaklaşık iletim süresi: %s, 7 Kg\'lik bir eşyanın iletim süresi: %s', 
+'givearmoryaccesstext' => 'Erişim izni ver:', 
+'computedeliverytime' => 'Tahmini varış süresi', 
+'lendtime' => 'Ödünç verme tarihi', 
+'lentby' => 'Ödünç veren', 
+'lenddeliverytime' => 'Varış zamanı', 
+'rolesandtitles_rolehelper' => '<p>İdari işlerin daha sorunsuz yürümesi için, güvendiğiniz kişileri devletin resmi görevlerine atayın.<p> Başmuhafız olarak atamasını yapabileceğiniz mevkiler: 1 Teğmen</p>', 
+
+);
+
+?>

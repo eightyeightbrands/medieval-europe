@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'needs' => 'Szükséges Anyag', 
+'requestedhours' => 'Szükséges Órák', 
+'project' => 'Terv', 
+'nolocationfound' => 'Nem található lehetséges hely', 
+'start' => 'Indítás', 
+'buildproject_helper' => 'Ezen az oldalon kezdheted az építési terveidet. Ha valaki elfogadja a tervet, akkor egy építkezési terület jelenik meg a meghatározott régióban.', 
+'buildproject_pagetitle' => 'Terv kezdése', 
+'buildproject' => 'Terv indítása', 
+'runningprojects' => 'Terv folyamatban', 
+'projectisfeasible' => 'Elkezdheted a tervet.', 
+'projectisfeasiblecost' => 'Elkezdheted a tervet. %d Hit Pontba kerül', 
+'result' => 'Eredmény', 
+'startkingdomproject_ok' => 'Elkezdtél egy tervet.', 
+'projecttargetstructure' => 'Építés alatt álló épület: <b>%s</b>', 
+'structure_info' => 'Épület információ', 
+'structure_founder' => '%s', 
+'projectstartedby' => 'A tervet elkezdte: <b>%s</b>', 
+'projectstartedon' => 'A terv elkezdődött: <b>%s</b>', 
+'projectendedon' => 'A tervet leállították:', 
+'info_helper' => 'A bejárat közelében felfigyelsz egy kő dísztáblára, amely néhány vésett betűt visel.', 
+'projecthistoryheader' => 'A projekt története', 
+'projecthistory' => 'Az építkezési tervet elindította: <b>%s</b> il <b>%s</b>', 
+'projecthistory2' => 'Az építkezés befejeződött: <b>%s</b>. Időbe került (időtartam): <b>%s</b>', 
+'churchstructureexists' => 'Ennek a vallásnak már van egy temploma/vallási épülete.', 
+'workedhours' => 'Ledolgozott órák', 
+'buildingprogress' => 'Építés folyamatban', 
+'regionisnotcontrolled' => 'Ez a kiemelt régió nem tartozik egyetlen királysághoz sem.', 
+'religion_1_toonear' => 'Távolsági kikötés nem megfelelő, egy épület ebben a típusban: %s túl közel van (régió %s)', 
+'religion_2_toonear' => 'Távolsági kikötés nem megfelelő, egy épület ebben a típusban: %s túl közel van (régió %s)', 
+'projectisinprogress' => 'Egy hasonló terv már folyamatban van.', 
+'religion_2_toofar' => 'Ezt a típusú épületet a szülő épülettől 3 régióval arrébb kellene elhelyezni.', 
+'religion_3_toonear' => 'A távolsági kikötés nem elégíti ki az építési előírásokat, mert egy épület ebben a típusban: %s túl közel van (régió %s)', 
+'religion_4_toonear' => 'A távolsági kikötés nem elégíti ki az építési előírásokat, mert egy épület ebben a típusban: %s túl közel van (régió %s)', 
+'religion_3_toofar' => 'Ezt a típusú épületet a szülő épülettől 2 régióval arrébb kellene elhelyezni.', 
+'completedprojects' => 'Befejezett tervek.', 
+'nocompletedprojects' => 'Még nincsenek befejezett tervek.', 
+'norunningprojects' => 'Nincsenek futó tervek.', 
+'structurealreadyexist' => 'Ez az épület típus már létezik.', 
+'neededstructurenotexisting' => 'Nem építheted fel ezt az épületet, egy szükséges épület hiányzik.', 
+'neededstructure' => 'Szükséges épület', 
+
+);
+
+?>

@@ -1,0 +1,152 @@
+body
+{
+	background:url(../images/template/background.jpg) no-repeat #000000 50% 20px;
+	font-family:"Times New Roman", serif;
+	color: #ffffff;
+}
+
+body, html
+{
+ height: 100%;
+}
+
+.table>tbody>tr>th
+{
+	color:yellow;
+}
+
+a
+{
+	color:#b9f3ff;	
+}
+
+a:hover
+{
+	color:#ffffff;	
+}
+
+h1
+{
+	font-size:2em;
+	padding:0px 0px;
+	margin:5px 0 0 0;
+}
+.value
+{
+		color: lightblue;
+}
+
+.lead
+{
+	font-size: 1.3em;
+	
+}
+
+.alert
+{
+	line-height:normal;
+	background-color: transparent;
+	padding:5px 3px;
+	border:0;	
+	margin:0;
+}
+
+
+.form-group
+{
+	margin-bottom:5px;
+	
+}
+
+.form-control
+{
+	border-radius:0px;
+	height:30px;
+	
+}
+
+.btn
+{
+	border-radius:0px;		
+	border:0;
+}
+
+.btn:hover, .btn:focus
+{
+	color:yellow;
+}
+
+.btn-me
+{	
+	width:100%;
+	background:url(../images/template/background_wooden_2.jpg) no-repeat;
+	border: 1px solid #cfa733;
+	margin-bottom:1px;
+}
+
+.btn-fb
+{
+	width:100%;
+	background: #3b5999;
+	border: 1px solid white;	
+}
+
+.btn-google
+{
+	width:100%;
+	background: #D84B37;
+	border: 1px solid white;	
+}
+
+.container {
+  display: table;
+  height: 100%;
+}
+
+.block {
+  display: table-row;
+  height: 1px;
+}
+
+.push {
+  height: auto;
+}
+
+#content
+{
+	
+	margin-top:200px;
+	background: rgba( 0,0,0,0.5);	
+	color: #fff;
+}
+
+#languages {
+ border:0px solid #c00;
+}
+
+#languages a {
+ margin-left:5px;
+ float:left; 
+}
+
+.list-inline>li {
+	padding:5px 0px;
+}
+
+.error_msg, .alert-danger
+{
+	padding:5px 0px;
+	color:yellow;	
+}
+.info_msg, .alert-success
+{
+	padding:5px 0px;
+	color:lightgreen;	
+}
+
+#footer
+{
+
+};
+	
+}

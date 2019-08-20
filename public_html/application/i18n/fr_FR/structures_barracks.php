@@ -1,0 +1,48 @@
+<?php defined('SYSPATH') OR die('No direct access allowed.');
+
+$lang = Array
+(
+'prj_barracks_level1_name' => 'Casernes et prisons', 
+'prj_barracks_level1_desc' => 'Une fois les prisons construites, vous serez en mesure d\'y enfermer les criminels.', 
+'prj_barracks_level2_name' => 'Casernes et prisons - Niveau 2', 
+'prj_barracks_level2_desc' => 'Le niveau 2 vous permettra de g&eacute;rer plus efficacement la distribution des armes et armures.', 
+'rest_helper' => 'Enfin, un peu de repos ! Mais restez quand m&ecirc;me aux aguets, une r&eacute;volte des prisonniers est toujours possible.', 
+'restrain_helper' => 'Vous pouvez interdire &agrave; un personnage de quitter le royaume. Pr&eacute;cisez la dur&eacute;e de cette interdiction.', 
+'target' => 'Personnage &agrave; retenir', 
+'write_restraintorder' => 'Emettre une interdiction de quitter le territoire', 
+'managerestrained_helper' => 'Beaucoup de choses s&rsquo;accumulent sur votre bureau, mais vous parvenez &agrave; trouver quelques interdictions de quitter le territoire d&eacute;j&agrave; &eacute;mises et des formulaires pour en r&eacute;diger de nouvelles.', 
+'norestrained' => 'Il n&rsquo;y a aucune interdiction de quitter le territoire en ce moment.', 
+'warrant_id' => 'Num&eacute;ro du mandat d&rsquo;arr&ecirc;t', 
+'sentence_endtime' => 'Fin de la condamnation', 
+'sentence_imprison' => 'Emprisonner', 
+'sentence_triallink' => 'Libell&eacute; du proc&egrave;s', 
+'sentence_issuedby' => 'Prononc&eacute; par', 
+'sentence_reason' => 'Motif', 
+'sentence_freereason' => 'Motif de la lib&eacute;ration', 
+'sentence_timeleft' => '(%s de la fin)', 
+'manageprisoner_helper' => 'Sur une feuille de papier malpropre, vous voyez une liste de criminels emprisonn&eacute;s.', 
+'arrest' => 'Mettre aux arr&ecirc;ts', 
+'jail_text' => '<p>Vous vous trouvez dans une cellule immonde. Dans un coin de la pi&egrave;ce, vous distinguez une paillasse pouilleuse. De toute fa&ccedil;on, vu l&rsquo;humidit&eacute;, vous ne pourrez surement pas dormir. Voil&agrave; votre logis pour un certain temps. Il vaut mieux r&eacute;fl&eacute;chir &agrave; votre conduite pass&eacute;e.</p><p> Vous avez &eacute;t&eacute; mis en prison pour le motif suivant : <b>%s</b>. Vous serez lib&eacute;r&eacute; le <b>%s</b>.</p>', 
+'jail_pagetitle' => 'Une cellule mis&eacute;rable et d&eacute;goutante', 
+'manageprisoners' => 'G&eacute;rer les prisonniers', 
+'managerestrained' => 'Interdiction de quitter le territoire', 
+'armory' => 'Armurerie', 
+'lend' => 'Preter des objets', 
+'armory_upgrade' => 'Am&eacute;liorer votre armurerie', 
+'armory_upgraded' => 'Armurerie am&eacute;lior&eacute;e', 
+'armory_pagetitle' => 'Armurerie', 
+'armory_helper' => 'Vous pouvez envoyer les articles s&eacute;lectionn&eacute;s &agrave; la personne d&eacute;sign&eacute;e. Elle doit imp&eacute;rativement se situer dans la r&eacute;gion de l&rsquo;armurerie, sauf si l&rsquo;armurerie a &eacute;t&eacute; am&eacute;lior&eacute;e.', 
+'lendsreport' => 'Rapport concernant les pr&ecirc;ts', 
+'nolentitems' => 'Aucun objet en pret.', 
+'lendtext' => 'Preter des objets a', 
+'expecteddeliverytime' => 'Le temps d&rsquo;acheminement pour un objet pesant 1,4 kg est d&rsquo;environ %s. Pour un objet pesant 7 kg, il sera de %s.', 
+'givearmoryaccesstext' => 'Donner les droits d&rsquo;acc&egrave;s &agrave; :', 
+'computedeliverytime' => 'Temps d&rsquo;acheminement pr&eacute;vu : ', 
+'lendtime' => 'Pr&ecirc;t&eacute; le', 
+'lentby' => 'Pr&ecirc;t&eacute; par', 
+'lenddeliverytime' => 'Livraison pr&eacute;vue dans', 
+'rolesandtitles_rolehelper' => '<p>Pour mieux r&eacute;pondre &agrave; vos responsabilit&eacute;s, vous pouvez d&eacute;l&eacute;guer certaines missions officielles du Royaume &agrave; des personnes de confiance.</p><p> En tant que Capitaine de la Garde, vous pouvez nommer un lieutenant.</p>', 
+
+);
+
+?>

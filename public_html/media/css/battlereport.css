@@ -1,0 +1,109 @@
+#battlereportheader
+{
+width:700px;
+height:14px;
+border:0px solid #000;
+background: url(../images/template/pergamena2_top.png) no-repeat; 
+}
+
+#battlereportbody
+{
+text-align:left;
+width:680px;
+padding: 40px 10px;
+background-image:url(../images/template/pergamena2_body.png);
+background-repeat:repeat-y;
+border:0px solid #000;
+
+}
+
+#battlereportfooter
+{
+width:700px;
+height:14px;
+background: url(../images/template/pergamena2_bottom.png) no-repeat ;
+}
+
+.startduel
+{
+font-size:14px;
+margin: 10px 0px;
+color: #c00;
+text-align:center;
+font-weight:bold;
+}
+
+.debug 
+{
+font-weight:;
+color: #c00;
+margin-bottom:0px;
+}
+
+.battleround
+{
+font-weight:bold;
+color: #5a4da7;
+font-size: 17px;
+margin-bottom:10px;
+text-align:center;
+}
+
+.objectbreak, .endduel, .stunnedchar, .endbattle, .battlecriticalhit
+{
+	margin: 3px 0px;
+	color: #c00;	
+	font-weight: bold;
+}
+
+
+.startturn
+{
+font-weight: bold;
+color: blue;
+text-align:center;
+}
+
+
+.endduel, .roundresult
+{
+margin: 10px 0px 0px 0px;
+text-align:center;
+}
+
+.startbattle
+{ 
+font-weight: bold; 
+margin: 10px 0px 5px 0px;
+color: blue;
+width:100;
+text-align:center;
+}
+
+.bonuses, .bonusesheader
+{
+	color:darkblue;	
+}
+
+.bonusesheader
+{
+	font-weight:bold;	
+}
+
+.participants
+{
+margin:0px 0px;
+border:0px solid #000;
+}
+
+.newline, .closeround
+{
+margin: 5px 0px; 
+text-align:center;
+}
+
+.stunnedrecoverchar, .bleeddamage, .nativeinfo, .playerinfo
+{
+color: darkgreen;
+font-weight:bold;
+}
