@@ -53,18 +53,14 @@ class Church_Model extends ORM
 			$headquarter = current($info['structures']['religion_1']);
 			reset($info['structures']['religion_1']);
 			$structure_hq = ORM::factory('structure', $headquarter -> id );		
-		
-			if ( $structure_hq -> contains_item( 'relic_' . $info['tag']) == true )
-			{
-				$dogmabonuses = $db -> query("
-				SELECT cd.id, cd.bonus, cd.url
-				FROM  church_dogmabonuses c, cfgdogmabonuses cd
-				WHERE c.cfgdogmabonus_id = cd.id
-				AND   c.church_id = {$church->id}");		
+			 
+			$dogmabonuses = $db -> query("
+			SELECT cd.id, cd.bonus, cd.url
+			FROM  church_dogmabonuses c, cfgdogmabonuses cd
+			WHERE c.cfgdogmabonus_id = cd.id
+			AND   c.church_id = {$church->id}");		
 					
-				$info['dogmabonuses'] = $dogmabonuses -> as_array();
-			}
-			
+			$info['dogmabonuses'] = $dogmabonuses -> as_array();
 		}
 				
 		$allchars = ORM::factory('character') -> count_all();
@@ -116,7 +112,12 @@ class Church_Model extends ORM
 		// Conto quanti bonus possiede la chiesa
 		$bonus_owned = count($this -> church_dogmabonuses);
 		
-		return 10000 + (10000 * pow($bonus_owned,2));
+		if ( $structure_hq -> contains_item( 'relic_' . $info['tag']) == true ) {
+			return 10000 + (10000 * pow($bonus_owned,2));
+		}
+		else {
+			return 90000 + (90000 * pow($bonus_owned,2));
+		}
 	}
 	
 	/*
