@@ -113,10 +113,10 @@ class Church_Model extends ORM
 		$bonus_owned = count($this -> church_dogmabonuses);
 		
 		if ( $structure_hq -> contains_item( 'relic_' . $info['tag']) == true ) {
-			return 10000 + (10000 * pow($bonus_owned,2));
+			return 9000 + (1000 * pow($bonus_owned,2));
 		}
 		else {
-			return 90000 + (90000 * pow($bonus_owned,2));
+			return 90000 + (10000 * pow($bonus_owned,2));
 		}
 	}
 	
