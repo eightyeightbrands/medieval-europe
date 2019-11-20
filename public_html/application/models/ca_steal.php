@@ -4,27 +4,27 @@ class CA_Steal_Model extends Character_Action_Model
 {
 	
 	
-	const REQUIREDGLUT = 2;	// Punti sazietà necessari	
-	const REQUIREDENERGY = 5; // Punti energia necessari	
-	const STEALCOOLDOWN = 10; // Quanti secondi devono passare prima che si possa derubare lo stesso char	
-	const SKILLINCREMENTFAIL = 0.05; // Incremento skill in caso di fallimento
-	const SKILLINCREMENTSUCCESS = 0.1; // Incremento skill in caso di successo
+	const REQUIREDGLUT = 2;	// Glut points needed	
+	const REQUIREDENERGY = 5; // Energy points needed	
+	const STEALCOOLDOWN = 10; // How many seconds must pass before the same char can be robbed	
+	const SKILLINCREMENTFAIL = 0.05; // Skill increase in case of failure
+	const SKILLINCREMENTSUCCESS = 0.1; // Skill increase in case of success
 	
 	
 	protected $immediate_action = true;
-	protected $cancel_flag = false;     // se true, la azione e' cancellabile dal pg.
+	protected $cancel_flag = false;     // if true, the action can be deleted from pg.
 	protected $basetime       = null;
 	protected $requiresequipment = false;
 	protected $callablebynpc = true;	
 	protected $appliabletonpc = false;	
 	
-	// Effettua tutti i controlli relativi all' azione, sia quelli condivisi
-	// con tutte le action che quelli peculiari 
-	// @input: array di parametri
-	// par[0]: oggetto char che ruba
-	// par[1]: oggetto char che viene rubato
-	// @output: TRUE = azione disponibile, FALSE = azione non disponibile
-	//          $message contiene il messaggio di ritorno	
+	// Perform all the controls related to the action, both those shared
+	// with all the actions that the peculiar ones
+	// @input: array of parameters
+	// par[0]: char object that steals
+	// par[1]: char object that is stolen
+	// @output: TRUE = action available, FALSE = action not available
+	//          $message containts the return message	
 	
 	protected function check( $par, &$message )
 	{
@@ -32,9 +32,9 @@ class CA_Steal_Model extends Character_Action_Model
 		if ( ! parent::check( $par, $message, $par[0] -> id, $par[1] -> id ))
 		{ return false; }
 
-		// Check: cfgitem non caricato
-		// Check: char non caricato
-		// Check: struttura non caricata
+		// Check: cfgitem not loaded
+		// Check: char not loaded
+		// Check: structure not loaded
 		
 		if 
 		(
@@ -48,8 +48,8 @@ class CA_Steal_Model extends Character_Action_Model
 		}
 	
 		
-		// Check: il char non ha abbastanza energia
-		// Check: il char non ha abbastanza sazietà
+		// Check: char doesn't have enough energy
+		// Check: char does not have enough glut
 		
 		if
 		(
@@ -62,7 +62,7 @@ class CA_Steal_Model extends Character_Action_Model
 			return false;
 		}
 		
-		// se il target si sta riposando, errore
+		// if the target is resting, error
 		
 		if ( Character_Model::is_meditating( $par[1] -> id ) )
 		{
@@ -70,7 +70,7 @@ class CA_Steal_Model extends Character_Action_Model
 			return false;			
 		}
 		
-		// se il target sta viaggiando, errore
+		// if the target is traveling, error
 		
 		if ( Character_Model::is_traveling( $par[1] -> id ) )
 		{
@@ -78,7 +78,7 @@ class CA_Steal_Model extends Character_Action_Model
 			return false;			
 		}
 				
-		// se il target è in meditation, errore
+		// if the target is in meditation, error
 		
 		if ( Character_Model::is_meditating( $par[1] -> id ) )
 		{
@@ -118,7 +118,7 @@ class CA_Steal_Model extends Character_Action_Model
 	public function execute_action ( $par, &$message) 
 	{
 		
-		// sottrai energia e glut
+		// subtract energy and glut
 		
 		$par[0] -> modify_glut(self::REQUIREDGLUT);
 		$par[0] -> modify_energy(self::REQUIREDENERGY, false, 'steal');
@@ -132,13 +132,13 @@ class CA_Steal_Model extends Character_Action_Model
 			true,
 			time() );
 		
-		// quanti coins ha il target char?
+		// how many coins the target char has?
 		
 		$silvercoins = Character_Model::get_item_quantity_d( $par[1] -> id, 'silvercoin' );
 		if ($silvercoins > 0 )
 		{
 			
-			// roll source dex vs targe dex
+			// roll source dex vs target dex
 			
 			$statstealingskill = Character_Model::get_stat_d(
 				$par[0] -> id,
@@ -163,7 +163,7 @@ class CA_Steal_Model extends Character_Action_Model
 			if ($roll <= $successpercentage )
 			{
 				
-				// max 20% dei silver coins.
+				// max 20% of silver coins.
 				
 				$moneystolen = max(mt_rand(1, $silvercoins * 20/100),25*$par[0]->dex^1.3);
 				$par[1] -> modify_coins( -$moneystolen, 'moneystolen' );
@@ -180,7 +180,7 @@ class CA_Steal_Model extends Character_Action_Model
 				$par[0] -> save();
 				$par[1] -> save();
 				
-				// Aumenta skill del x%
+				// Increase skill by x%
 				
 				Character_Model::modify_stat_d(
 					$par[0] -> id, 
@@ -196,7 +196,7 @@ class CA_Steal_Model extends Character_Action_Model
 			}
 			else
 			{
-				// Aumenta skill del x%
+				// Increasea skill by x%
 				
 				Character_Model::modify_stat_d(
 					$par[0] -> id, 
@@ -222,8 +222,8 @@ class CA_Steal_Model extends Character_Action_Model
 	
 	public function complete_action( $data ) {}
 	
-	// Questa funzione costruisce un messaggio da visualizzare 
-	// in attesa che la azione sia completata.
+	// This function constructs a message to be displayed
+	// waiting for the action to be completed.
 	
 	public function get_action_message( $type = 'long') {}
 		
