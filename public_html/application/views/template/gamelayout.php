@@ -40,14 +40,20 @@
 	echo html::stylesheet('media/css/structure.css?v=2.9.5', FALSE);
 	echo html::stylesheet('media/css/battlereport.css?v=2.9.5', FALSE);
 	echo html::stylesheet('media/css/map.css?v=2.9.5', FALSE);
-	// Scripts
-	echo html::script('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js', FALSE);		echo html::script('https://code.jquery.com/ui/1.12.0/jquery-ui.min.js', FALSE);
+
+	// Scripts
+
+	echo html::script('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js', FALSE);		
+	echo html::script('https://code.jquery.com/ui/1.12.0/jquery-ui.min.js', FALSE);
 	echo html::script("media/js/tooltipster-master/dist/js/tooltipster.bundle.min.js", FALSE);
-	echo html::script('media/js/jquery/plugins/cookie/js.cookie.js', FALSE);	echo html::script('media/js/common.js', FALSE);
+
+	echo html::script('media/js/jquery/plugins/cookie/js.cookie.js', FALSE);	
+	echo html::script('media/js/common.js', FALSE);
 	?>
 	<!-- Countdown: workaround per visualizzare il countdown nella title bar -->
 	<script type="text/javascript">$.noRequestAnimationFrame = true;</script>
-	<?	echo html::script('media/js/jquery/plugins/jquery.countdown/jquery.plugin.min.js', FALSE);		echo html::script('media/js/jquery/plugins/jquery.countdown/jquery.countdown.min.js', FALSE);			?>
+	<?	echo html::script('media/js/jquery/plugins/jquery.countdown/jquery.plugin.min.js', FALSE);		
+	echo html::script('media/js/jquery/plugins/jquery.countdown/jquery.countdown.min.js', FALSE);			?>
 	<!-- Fine Countdown -->
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 
@@ -347,7 +353,9 @@ function forceCompleteAction() {
 			html::anchor('/character/change_language/fr_FR', html::image(array('src' => 'media/images/flags-lang/fr.png'), array('title' => 'French', 'class' => 'image-flag')))
 			. '&nbsp;' .
 			html::anchor('/character/change_language/gr_GR', html::image(array('src' => 'media/images/flags-lang/gr.png'), array('title' => 'Greek', 'class' => 'image-flag')));
-
+                        . '&nbsp;' .
+		        html::anchor('/character/change_language/es_ES', html::image(array('src' => 'media/images/flags-lang/es.png'), array('title' => 'Spanish', 'class' => 'image-flag')))
+			. '&nbsp;' .
 
 		?>
 
